@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, 爱无尽，西陵恋">
+    <meta name="keywords" content="matlab数组和变量, 爱无尽，西陵恋">
     <meta name="description" content="一个只会看代码的电工">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | 爱无尽，西陵恋</title>
+    <title>matlab数组和变量 | 爱无尽，西陵恋</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -266,12 +266,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">matlab数组和变量</h1>
                 </div>
             </div>
         </div>
@@ -385,12 +385,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
+                                <span class="chip bg-color">基础知识</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/matlab/" class="post-category">
+                                matlab
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -399,7 +412,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-07-09
+                    2020-07-02
                 </div>
                 
 
@@ -408,14 +421,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    73
+                    1.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    5 分
                 </div>
                 
 
@@ -438,15 +451,87 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h1 id="数组和变量"><a href="#数组和变量" class="headerlink" title="数组和变量"></a>数组和变量</h1><h2 id="1-数组的定义"><a href="#1-数组的定义" class="headerlink" title="1.数组的定义"></a>1.数组的定义</h2><p>matlab数组可以分为：  </p>
+<ul>
+<li>没有元素的空数组（empty array)</li>
+<li>只有一个元素的标量（scalar），它实际上是一个一行一列的数组 </li>
+<li>只有一行或一列的元素的向量（vector)，分别叫作行向量和列向量，同时是一维数组 ；</li>
+<li>普通的具有多行多列元素的二维数组；</li>
+<li>超过二维的多维数组（具有行列页等多个维度）</li>
+</ul>
+<h2 id="2-数组的创建"><a href="#2-数组的创建" class="headerlink" title="2.数组的创建"></a>2.数组的创建</h2><p>创建空数组 </p>
+<blockquote>
+<p> A = []<br>A =<br>    []    </p>
+</blockquote>
+<p>创建一维数组<br><code>var = start_var:step:stop var</code><br>这是一个一维等差数列，分别表示第一个元素、间隔、终止元素；（终止元素不一定取到）step不指定的时候默认为1</p>
+<pre><code class="lang-Var=linspace(start_var,stop_var,n)```">分别指的是起始元素、终止元素、元素个数。n不指定时，默认为100
+一维等比数组：  
+```Var=logspace(start_var,stop_var,n)
+</code></pre>
+<p>与上面那个类似，默认n为50；<br>创建二维数组<br>创建每一行的元素时，可以利用冒号和函数的方法，只要注意二维数组时，保证每一行（或每一列）具有相同数目的元素。<br><img src="https://picturesshare.oss-cn-beijing.aliyuncs.com/img20200702161037.png" alt=""><br>每个MATLAB变量可以是数组或者矩阵。<br>用一个简单的方法指定变量。例如：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">x <span class="token operator">=</span> <span class="token number">3</span>	       <span class="token comment">% defining x and initializing it with a value</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><br>MATLAB执行上述语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">x <span class="token operator">=</span>
+     <span class="token number">3</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>上述的例子创建了一个1-1的矩阵名为x和的值存储在其元素中。我们可以看看另外的例子<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">x <span class="token operator">=</span> <span class="token function">sqrt</span><span class="token punctuation">(</span><span class="token number">16</span><span class="token punctuation">)</span> 	<span class="token comment">% defining x and initializing it with an expression</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><br>MATLAB执行上述语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">x <span class="token operator">=</span>
+     <span class="token number">4</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB注意事项：<br>在使用变量之前，必须进行赋值。<br>当系统接收到一个变量之后，这个变量可以被引用。<br>例如：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">x <span class="token operator">=</span> <span class="token number">7</span> <span class="token operator">*</span> <span class="token number">8</span><span class="token punctuation">;</span>
+y <span class="token operator">=</span> x <span class="token operator">*</span> <span class="token number">7.89</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">y <span class="token operator">=</span>
+  <span class="token number">441.8400</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>当表达式返回一个结果，不分配给任何变量，系统分配给一个变量命名ans，以后可以继续使用。<br>例如：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab"><span class="token function">sqrt</span><span class="token punctuation">(</span><span class="token number">78</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">ans <span class="token operator">=</span>
+    <span class="token number">8.8318</span>  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>变量 ans 可以被继续使用:<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab"><span class="token number">9876</span><span class="token operator">/</span>ans<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">ans <span class="token operator">=</span>
+   <span class="token number">1.1182e+03</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB可以多个赋值<br>多个任务可以在同一行。例如，  </p>
+<p><code>a = 2; b = 7; c = a * b</code>  </p>
+<p>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">c <span class="token operator">=</span>
+    <span class="token number">14</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB如何显示已经使用的变量名？<br>在MATLAB中可以使用 <code>who ``命令显示所有已经使用的变量名。</code>who```<br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">Your variables are<span class="token operator">:</span>
+a    ans  b    c    x    y   <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br><pre class="line-numbers language-whos```" data-language="whos```"><div class="caption"><span>命令则显示多一点有关变量：</span></div><code class="language-whos```">当前内存中的变量
+每个变量的类型
+内存分配给每个变量
+无论他们是复杂的变量与否
+&#96;&#96;&#96;whos&#96;&#96;&#96;
+MATLAB将执行上面的语句，并返回以下结果：  
+&#96;&#96;&#96; matlab
+  Name      Size            Bytes  Class     Attributes
+
+  a         1x1                 8  double              
+  ans       1x1                 8  double              
+  b         1x1                 8  double              
+  c         1x1                 8  double              
+  x         1x1                 8  double              
+  y         1x1                 8  double   
+&#96;&#96;&#96;   
+clear命令删除所有（或指定）从内存中的变量（S）。
+&#96;&#96;&#96; matlab
+clear x     % it will delete x, won&#39;t display anything
+clear	     % it will delete all variables in the workspace
+             %  peacefully and unobtrusively <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><br>长任务<br>长任务可以通过使用省略号（…）延伸到另一条线路。例如，<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">initial_velocity <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+acceleration <span class="token operator">=</span> <span class="token number">9.8</span><span class="token punctuation">;</span>
+time <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span>
+final_velocity <span class="token operator">=</span> initial_velocity <span class="token punctuation">...</span>
+    <span class="token operator">+</span> acceleration <span class="token operator">*</span> time<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">final_velocity <span class="token operator">=</span>
+   <span class="token number">196</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB格式命令<br>默认情况下，MATLAB 四个小数位值显示数字。这就是所谓的 short format.<br>如果想更精确，需要使用 format 命令。<br>长（long ） 命令格式显示小数点后16位。<br>例如：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">format long
+x <span class="token operator">=</span> <span class="token number">7</span> <span class="token operator">+</span> <span class="token number">10</span><span class="token operator">/</span><span class="token number">3</span> <span class="token operator">+</span> <span class="token number">5</span> <span class="token operator">^</span> <span class="token number">1.2</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">x <span class="token operator">=</span>
+  <span class="token number">17.231981640639408</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>format short 例子：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">format short
+x <span class="token operator">=</span> <span class="token number">7</span> <span class="token operator">+</span> <span class="token number">10</span><span class="token operator">/</span><span class="token number">3</span> <span class="token operator">+</span> <span class="token number">5</span> <span class="token operator">^</span> <span class="token number">1.2</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">x <span class="token operator">=</span>
+   <span class="token number">17.2320</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>空格格式命令回合到小数点后两位数字。例如：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">format bank
+daily_wage <span class="token operator">=</span> <span class="token number">177.45</span><span class="token punctuation">;</span>
+weekly_wage <span class="token operator">=</span> daily_wage <span class="token operator">*</span> <span class="token number">6</span>  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">weekly_wage <span class="token operator">=</span>
+       <span class="token number">1064.70</span>  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB 显示大量使用指数表示法。<br>短格式e命令允许以指数的形式显示小数点后四位，加上指数。<br>例如：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">format short e
+<span class="token number">4.678</span> <span class="token operator">*</span> <span class="token number">4.9</span>  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">ans <span class="token operator">=</span>
+   <span class="token number">2.2922e+01</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>format long e命令允许以指数的形式显示小数点后四位，加上指数。例如：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">format long e
+x <span class="token operator">=</span> <span class="token keyword">pi</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">x <span class="token operator">=</span>
+     <span class="token number">3.141592653589793e+00</span>  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>format rat 格式大鼠命令给出最接近的有理表达式，从计算所得。例如：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">format rat
+<span class="token number">4.678</span> <span class="token operator">*</span> <span class="token number">4.9</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">ans <span class="token operator">=</span>
+   <span class="token number">2063</span><span class="token operator">/</span><span class="token number">90</span>  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><br>MATLAB创建向量<br>向量是一维数组中的数字。 MATLAB允许创建两种类型的矢量：<br>行向量<br>列向量<br>创建行向量括在方括号中的元素的集合，用空格或逗号分隔的元素。<br>例如，<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">r <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">7</span> <span class="token number">8</span> <span class="token number">9</span> <span class="token number">10</span> <span class="token number">11</span><span class="token punctuation">]</span> <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">r <span class="token operator">=</span>
+  Columns <span class="token number">1</span> through <span class="token number">4</span>
+       <span class="token number">7</span>              <span class="token number">8</span>              <span class="token number">9</span>             <span class="token number">10</span>       
+  Column <span class="token number">5</span>
+      <span class="token number">11</span>    <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><br>另外一个例子，<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">r <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">7</span> <span class="token number">8</span> <span class="token number">9</span> <span class="token number">10</span> <span class="token number">11</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+t <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+res <span class="token operator">=</span> r <span class="token operator">+</span> t <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">res <span class="token operator">=</span>
+  Columns <span class="token number">1</span> through <span class="token number">4</span>
+       <span class="token number">9</span>             <span class="token number">11</span>             <span class="token number">13</span>             <span class="token number">15</span>       
+  Column <span class="token number">5</span>
+      <span class="token number">17</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><br>创建列向量通过内附组方括号中的元素，使用分号（;)分隔的元素。<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">c <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">7</span><span class="token punctuation">;</span>  <span class="token number">8</span><span class="token punctuation">;</span>  <span class="token number">9</span><span class="token punctuation">;</span>  <span class="token number">10</span><span class="token punctuation">;</span> <span class="token number">11</span><span class="token punctuation">]</span>  <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><br>MATLAB将执行上面的语句，并返回以下结果：<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">c <span class="token operator">=</span>
+       <span class="token number">7</span>       
+       <span class="token number">8</span>       
+       <span class="token number">9</span>       
+      <span class="token number">10</span>       
+      <span class="token number">11</span>  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></p>
 
                 
             </div>
@@ -473,7 +558,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.haidong.online/2021/07/09/hello-world/">https://www.haidong.online/2021/07/09/hello-world/</a>
+                    <a href="https://www.haidong.online/2020/07/02/mat1/">https://www.haidong.online/2020/07/02/mat1/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -510,7 +595,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
+                                    <span class="chip bg-color">基础知识</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -552,18 +641,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/07/09/hello-world/">
+                <a href="/2020/07/06/matlab-qiu-ji-fen/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="matlab求积分">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">matlab求积分</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -573,9 +661,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-09
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-06
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -584,7 +672,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -595,13 +682,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/07/27/ou-la-fa-gai-jin-de-ou-la-fa-long-ge-ku-ta-fa-qiu-jie-chu-zhi-wen-ti/">
+                <a href="/2020/07/01/post/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="欧拉法、改进的欧拉法、龙格-库塔法求解初值问题">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="拍照任务APP数学建模">
                         
-                        <span class="card-title">欧拉法、改进的欧拉法、龙格-库塔法求解初值问题</span>
+                        <span class="card-title">拍照任务APP数学建模</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -612,7 +699,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-01
                             </span>
                         <span class="publish-author">
                             
@@ -629,8 +716,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/">
-                        <span class="chip bg-color">微分方程</span>
+                    <a href="/tags/matlab-%E6%A8%A1%E7%B3%8A%E6%95%B0%E5%AD%A6/">
+                        <span class="chip bg-color">matlab 模糊数学</span>
                     </a>
                     
                 </div>
@@ -761,6 +848,13 @@
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
 
 
