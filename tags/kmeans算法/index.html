@@ -317,19 +317,10 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF%E9%97%AE%E9%A2%98%E5%8F%8A%E7%AE%97%E6%B3%95/" title="最短路问题及算法: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="最短路问题及算法" style="background-color: #F9EBEA;">最短路问题及算法
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/kmeans%E7%AE%97%E6%B3%95/" title="kmeans算法: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            data-tagname="kmeans算法" style="background-color: #F5EEF8;">kmeans算法
+                            data-tagname="kmeans算法" style="background-color: #F9EBEA;">kmeans算法
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -338,7 +329,7 @@
                 <a href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" title="基础知识: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="基础知识" style="background-color: #D5F5E3;">基础知识
+                            data-tagname="基础知识" style="background-color: #F5EEF8;">基础知识
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -347,7 +338,7 @@
                 <a href="/tags/matlab-%E6%A8%A1%E7%B3%8A%E6%95%B0%E5%AD%A6/" title="matlab 模糊数学: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="matlab 模糊数学" style="background-color: #E8F8F5;">matlab 模糊数学
+                            data-tagname="matlab 模糊数学" style="background-color: #D5F5E3;">matlab 模糊数学
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -356,7 +347,7 @@
                 <a href="/tags/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/" title="微分方程: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="微分方程" style="background-color: #FEF9E7;">微分方程
+                            data-tagname="微分方程" style="background-color: #E8F8F5;">微分方程
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -425,7 +416,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">10.4k</span>&nbsp;字
+                class="white-color">8.8k</span>&nbsp;字
             
             
             
@@ -645,6 +636,21 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 
 </html>

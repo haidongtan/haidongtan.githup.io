@@ -318,11 +318,11 @@
                 
                 
                 
-                <a href="/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/" title="数学建模: 4">
+                <a href="/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/" title="数学建模: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #F9EBEA;">数学建模
-                        <span class="tag-length">4</span>
+                        <span class="tag-length">3</span>
                     </span>
                 </a>
                 
@@ -378,7 +378,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"数学建模","max":5},{"name":"matlab","max":5}],
+            indicator: [{"name":"数学建模","max":4},{"name":"matlab","max":4}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -389,7 +389,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [4,1],
+                    value : [3,1],
                     name : '文章分类数量'
                 }
             ]
@@ -419,7 +419,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">10.4k</span>&nbsp;字
+                class="white-color">8.8k</span>&nbsp;字
             
             
             
@@ -639,6 +639,21 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 
 </html>
