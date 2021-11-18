@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="matlab求积分, 爱无尽，西陵恋">
+    <meta name="keywords" content="博爱之心, 爱无尽，西陵恋">
     <meta name="description" content="一个只会看代码的电工">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>matlab求积分 | 爱无尽，西陵恋</title>
+    <title>博爱之心 | 爱无尽，西陵恋</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -244,12 +244,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">matlab求积分</h1>
+                    <h1 class="description center-align post-title">博爱之心</h1>
                 </div>
             </div>
         </div>
@@ -363,12 +363,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E6%83%85%E6%84%9F/">
+                                <span class="chip bg-color">情感</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E9%9A%8F%E6%83%B3%E5%BD%95/" class="post-category">
+                                随想录
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -377,7 +390,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-07-06
+                    2021-11-16
                 </div>
                 
 
@@ -386,14 +399,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    390
+                    1.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -416,37 +429,12 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="matlab求微分与积分"><a href="#matlab求微分与积分" class="headerlink" title="matlab求微分与积分"></a>matlab求微分与积分</h1><h2 id="1-极限"><a href="#1-极限" class="headerlink" title="1.极限"></a>1.极限</h2><h3 id="1-1-Limit-函数的调用"><a href="#1-1-Limit-函数的调用" class="headerlink" title="1.1 Limit 函数的调用"></a>1.1 Limit 函数的调用</h3><blockquote>
-<p> limit（exp，x,a); %求符号表达式exp当自变量x趋于a时的极限<br> limit（exp，a);   %求符号表达式exp当默认自变量趋于a时的极限 limit（exp）；     %求符号表达式exp当默认自变量趋于0时的极限<br>limit （exp，x,a，’left’); %求符号表达式exp当默认自变量趋于a时的左极限<br> limit（exp，x,a，’right’);   %求符号表达式exp当默认自变量趋于a时的左极限   </p>
-</blockquote>
-<h3 id="1-2-limit函数的例子"><a href="#1-2-limit函数的例子" class="headerlink" title="1.2 limit函数的例子"></a>1.2 limit函数的例子</h3><p>计算表达式 $\lim\limits_{x\to\ 0}\frac{sin(x)}{x}$ 、$\lim\limits_{x\to\infty-}$${ (1+{1\over x}) }^x$<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab"><span class="token operator">></span><span class="token operator">></span> clear all
-<span class="token operator">></span><span class="token operator">></span> syms x<span class="token punctuation">;</span>
-<span class="token operator">></span><span class="token operator">></span> <span class="token function">limit</span> <span class="token punctuation">(</span><span class="token function">sin</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token operator">/</span>x<span class="token punctuation">)</span>
-ans <span class="token operator">=</span>
-<span class="token number">1</span> 
-<span class="token operator">></span><span class="token operator">></span> <span class="token function">limit</span> <span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token operator">+</span><span class="token number">1</span><span class="token operator">/</span>x<span class="token punctuation">)</span><span class="token operator">^</span>x<span class="token punctuation">,</span>x<span class="token punctuation">,</span><span class="token keyword">inf</span><span class="token punctuation">,</span><span class="token string">'left'</span><span class="token punctuation">)</span> 
-ans <span class="token operator">=</span>
-<span class="token function">exp</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></p>
-<h2 id="2-数值积分"><a href="#2-数值积分" class="headerlink" title="2.数值积分"></a>2.数值积分</h2><h3 id="2-1-Int函数的调用"><a href="#2-1-Int函数的调用" class="headerlink" title="2.1 Int函数的调用"></a>2.1 Int函数的调用</h3><blockquote>
-<p>int(s)   &nbsp;   %求符号表达式对于默认变量的不定积分<br>int(s,x) &nbsp; %求符号表达式s对于自变量x的不定积分<br>int(s,a,b) &nbsp; %求符号表达式对于默认自变量从a到b的积分<br>int(s,x,a,b) &nbsp; %求符号表达式对于自变量x从a到b的积分    </p>
-<h3 id="2-2-int函数求解不定积分的例子"><a href="#2-2-int函数求解不定积分的例子" class="headerlink" title="2.2 int函数求解不定积分的例子"></a>2.2 int函数求解不定积分的例子</h3><p>$\int{xsin(x)dx}$ 、$\int{ysin(x)dx}$<br><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab"> <span class="token operator">></span><span class="token operator">></span>syms x y<span class="token punctuation">;</span>
- <span class="token operator">></span><span class="token operator">></span>f<span class="token operator">=</span><span class="token function">int</span><span class="token punctuation">(</span><span class="token function">sin</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token operator">*</span>x<span class="token punctuation">)</span>
-f <span class="token operator">=</span>
-<span class="token function">sin</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span> <span class="token operator">-</span> x<span class="token operator">*</span><span class="token function">cos</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-<span class="token operator">></span><span class="token operator">></span> f<span class="token operator">=</span><span class="token function">int</span><span class="token punctuation">(</span><span class="token function">sin</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token operator">*</span>y<span class="token punctuation">,</span>x<span class="token punctuation">)</span>
-f <span class="token operator">=</span>
-<span class="token operator">-</span>y<span class="token operator">*</span><span class="token function">cos</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-```  
-### <span class="token number">2.3</span> int函数求解定积分的实例 
-$<span class="token operator">\</span>int_0<span class="token operator">^</span><span class="token number">1</span><span class="token punctuation">&#123;</span><span class="token function">xln</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token operator">+</span>x<span class="token punctuation">)</span>dx<span class="token punctuation">&#125;</span>$ 、  $<span class="token operator">\</span>int_0<span class="token operator">^</span><span class="token number">1</span><span class="token punctuation">&#123;</span> <span class="token punctuation">&#123;</span><span class="token function">ln</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token operator">+</span>x<span class="token punctuation">)</span><span class="token operator">\</span>over <span class="token number">1</span><span class="token operator">+</span>x<span class="token operator">^</span><span class="token number">2</span><span class="token punctuation">&#125;</span> dx<span class="token punctuation">&#125;</span>$
-```matlab 
-<span class="token operator">></span><span class="token operator">></span>syms x
-<span class="token operator">></span><span class="token operator">></span> <span class="token function">int</span><span class="token punctuation">(</span>x<span class="token operator">*</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token operator">+</span>x<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span> 
-ans <span class="token operator">=</span> 
-<span class="token number">1</span><span class="token operator">/</span><span class="token number">4</span>  
-<span class="token function">int</span><span class="token punctuation">(</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token operator">+</span>x<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">1</span><span class="token operator">+</span>x<span class="token operator">^</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span>
-ans <span class="token operator">=</span> 
-<span class="token function">log</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">2</span><span class="token operator">/</span><span class="token number">3</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></p>
+                <blockquote>
+<p>这个博客已经很久没有更新过了，期间我也经历了很多的人和事。深自感碌碌无为，惶惶终日，特重新开启记录的模式，将自己的一些感想记载下来，以供自我剖析所用。 </p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>恰逢深秋，每年这个月份是我情绪起伏最大的时候。有些事情算起来至今已有4年，自己花了很长时间走出来。在去年冬夜的一个夜晚，一个突然的讯息作为释怀的开始。这不仅是两个人的和解，也是自己同自己的和解。常言道，解铃还须系铃人，坦白地说自己是一个执念很深的人，很难做到某种意义上的拿得起放得下，我也想过强迫自己去忘掉，不过很遗憾我做不到。后来我慢慢明白了，很多东西绝非孜孜以求所能至耳。史书上称赞一个人多用“器局”，有人将其译为有办事的才干，我认为应该拆开来看,一“器”一“局”，这一点儿上和孔子的君子不器有相同之处。所以有才干同时格局宏大才是一种正确的理解。  </p>
+<h2 id="爱的本质是孤独亦是给予"><a href="#爱的本质是孤独亦是给予" class="headerlink" title="爱的本质是孤独亦是给予"></a>爱的本质是孤独亦是给予</h2><p>爱，可以让你不寂寞，但是却无法让你不孤独。很多时候，我们需要和自己内心对话。一个人对孤独的体验与他对爱的体验是成正比的如果说爱的经历丰富了人生，那么，爱的体验则丰富了心灵，不管爱的经历是否顺利，所得到的体验对于心灵都是宝贵的收入。因为爱，我们才有了观察人性和事物的浓厚兴趣。因为挫折，我们的观察便被引向了深邃的思考。一个人历尽挫折而仍葆爱心，正证明了他在精神上足够富有，所以输得起。常常听人说：爱情会把人掏空。这在遭遇挫折的时候好像尤其如此，倾心相爱的那个人离你而去了，你会顿时感到万念俱灰。可是，只要你曾用真心去爱，爱的收获就必定会以某种方式保藏在你的心中，当岁月渐渐抚平了创伤，你就会发现最主要的珍宝并未丢失。<strong>人人都是孤儿，所以人人都渴望有人爱，都想要有人疼</strong>。也许可以说，一个人对孤独的体验与他对爱的体验是成正比的，他的孤独的深度大致决定了他的爱的容量。反过来说也一样，人类思想史和艺术史上的那些伟大的灵魂，其深不可测的孤独岂不正是源自那博大无际的爱，这爱不是有限的人世事物所能满足的？爱本质上是一种给予，而爱的幸福就在这给予之中。许多贤哲都指出，给予比得到更幸福。</p>
+<h2 id="有无爱心是更重要的事"><a href="#有无爱心是更重要的事" class="headerlink" title="有无爱心是更重要的事"></a>有无爱心是更重要的事</h2><p>与是否被爱相比，有无爱心是更重要的。一个缺少被爱的人是一个孤独的人，一个没有爱心的人则是一个冷漠的人。孤独的人只要具有爱心，他仍会有孤独中的幸福，可是，倘若一个人没有爱心，则无论他表面上的生活多么热闹，幸福的源泉已经枯竭，他那颗冷漠的心是决不可能真正快乐的。<br>对于个人来说，最可悲的事情不是在被爱方面受挫，例如失恋、朋友反目等等，而是爱心的丧失，从而失去了感受和创造幸福的能力。对于一个社会来说，爱心的普遍丧失则是可怕的，它的确会使世界变得冷如冰窟，荒凉如沙漠。在这样的环境中，善良的人们不免寒心，但是我更希望这些人能够坚持自己的本心，就如陈行甲所说的那样，“做一束火把去照亮身边的人”。应该相信，世上善良的人总是多数，爱心必能唤起爱心。不论个人还是社会，只要爱心犹存，就有希望。  </p>
+<h2 id="吾何如？"><a href="#吾何如？" class="headerlink" title="吾何如？"></a>吾何如？</h2><p>宣宗朱瞻基对于谦曾说过：“你爱的不是朱家，而是这天下。”于谦要是用现代眼光去看，绝对是一位钢铁直男，透过有限的文字记载都能感觉到他的憨憨属性。自古以来，那些良臣名士大多无论行事大大咧咧还是小心谨慎，都是一个善良的本质。细细回想起来，在自己成长的过程中多遇贵人（很多师长对我付出了超过一般人地关注和引导），很多人也都给出了我很善良的评价(难道是因为我经常喜欢笑？？？)，反正我自己不这么觉得。 我一直没有想清楚自己为什么会受到这样的殊遇。<br>我就想以后能安心地做一点儿小学问，干一点儿有意义的工作。怀着一颗博爱之心，去对待身边的人和事。当然也希望能有一个人陪我去探索。<br>谈的不仅是书 , 还有情怀 , 日子久了 , 感情就深了</p>
 </blockquote>
 
                 
@@ -474,7 +462,7 @@ ans <span class="token operator">=</span>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://haidong.online/2020/07/06/matlab-qiu-ji-fen/">http://haidong.online/2020/07/06/matlab-qiu-ji-fen/</a>
+                    <a href="http://haidong.online/2021/11/16/bo-ai-zhi-xin/">http://haidong.online/2021/11/16/bo-ai-zhi-xin/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -511,7 +499,11 @@ ans <span class="token operator">=</span>
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E6%83%85%E6%84%9F/">
+                                    <span class="chip bg-color">情感</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -553,17 +545,18 @@ ans <span class="token operator">=</span>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/07/19/kmeans-ju-lei-matlab-shi-xian/">
+                <a href="/2021/11/16/bo-ai-zhi-xin/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="kmeans聚类matlab实现">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="博爱之心">
                         
-                        <span class="card-title">kmeans聚类matlab实现</span>
+                        <span class="card-title">博爱之心</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -573,9 +566,59 @@ ans <span class="token operator">=</span>
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-19
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-16
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E9%9A%8F%E6%83%B3%E5%BD%95/" class="post-category">
+                                    随想录
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%83%85%E6%84%9F/">
+                        <span class="chip bg-color">情感</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/07/27/ou-la-fa-gai-jin-de-ou-la-fa-long-ge-ku-ta-fa-qiu-jie-chu-zhi-wen-ti/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="欧拉法、改进的欧拉法、龙格-库塔法求解初值问题">
+                        
+                        <span class="card-title">欧拉法、改进的欧拉法、龙格-库塔法求解初值问题</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-27
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -591,57 +634,8 @@ ans <span class="token operator">=</span>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/kmeans%E7%AE%97%E6%B3%95/">
-                        <span class="chip bg-color">kmeans算法</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/07/02/mat1/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="matlab数组和变量">
-                        
-                        <span class="card-title">matlab数组和变量</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-02
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/matlab/" class="post-category">
-                                    matlab
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
-                        <span class="chip bg-color">基础知识</span>
+                    <a href="/tags/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/">
+                        <span class="chip bg-color">微分方程</span>
                     </a>
                     
                 </div>
@@ -772,13 +766,6 @@ ans <span class="token operator">=</span>
 
 </main>
 
-
-<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
-    });
-</script>
 
 
 
